@@ -1,0 +1,33 @@
+<div class="container mt-3">
+    <div class="row">
+        <div class="col">
+            <p class="h3 fw-bold text-danger">View Contacts</p>
+            <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias provident iure quaerat quos sit laboriosam aliquam quasi at nobis labore ipsum ullam inventore maxime quibusdam, officiis sed eveniet voluptatum. Ut?</p>
+        </div>
+    </div>
+</div>
+
+<!-- contact details -->
+
+<div class="container">
+    <div class="row align-items-center">
+        <div class="col-sm-4">
+            <img [src]="contact.photo" class="contact-img-big">
+        </div>
+        <div class="col-sm-6">
+            <ul class="list-group">
+                <li class="list-group-item list-group-item-danger">Name :  <span class="fw-bold">{{contact.name}}</span></li>
+                <li class="list-group-item list-group-item-danger">Email :  <span class="fw-bold">{{contact.email}}</span></li>
+                <li class="list-group-item list-group-item-danger">Mobile :  <span class="fw-bold">{{contact.mobile}}</span></li>
+                <li class="list-group-item list-group-item-danger">Company :  <span class="fw-bold">{{contact.company}}</span></li>
+                <li class="list-group-item list-group-item-danger">Title :  <span class="fw-bold">{{contact.title}}</span></li>
+                <li class="list-group-item list-group-item-danger">Group Id :  <span class="fw-bold">{{contact.groupId}}</span></li>
+            </ul>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col">
+            <a routerLink="/" class="btn btn-danger"><li class=" fa fa-arrow-alt-circle-left"></li> Back</a>
+        </div>
+    </div>
+</div>
